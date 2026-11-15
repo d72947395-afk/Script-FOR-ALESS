@@ -1,6 +1,6 @@
 --[[
     ╔══════════════════════════════════════╗
-    ║   ✦ ALESSIUM-BLOX FRUTS v21 ✦        ║
+    ║   ✦ ALESS v21 ✦        ║
     ║   ESP + TeleKill + Auto Hit + Aimbot  ║
     ║   t.me/Alessium1337                   ║
     ╚══════════════════════════════════════╝
@@ -137,7 +137,7 @@ end
 
 -- ===================== GUI =====================
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "AlessiumBloxFruts"
+ScreenGui.Name = "AlessScripts"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.IgnoreGuiInset = true
@@ -732,7 +732,7 @@ end
 
 -- ===================== WATERMARK =====================
 local Watermark = Instance.new("Frame")
-Watermark.Name = "AlessiumWatermark"
+Watermark.Name = "AlessWatermark"
 Watermark.Size = UDim2.new(0, 0, 0, 30)
 Watermark.AutomaticSize = Enum.AutomaticSize.X
 Watermark.Position = UDim2.fromOffset(10, 10)
