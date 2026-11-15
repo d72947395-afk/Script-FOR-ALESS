@@ -2,7 +2,7 @@
     ╔══════════════════════════════════════╗
     ║   ✦ ALESS v21 ✦        ║
     ║   ESP + TeleKill + Auto Hit + Aimbot  ║
-    ║   t.me/Alessium1337                   ║
+    ║   t.me/Aless1337                   ║
     ╚══════════════════════════════════════╝
 ]]
 
@@ -774,7 +774,7 @@ wmLabel("Alessium", Theme.ACCENT, 13, true)
 wmLabel("|", Color3.fromRGB(60, 60, 80), 12, false)
 wmLabel(LocalPlayer.DisplayName or LocalPlayer.Name, Theme.TEXT, 12, false)
 wmLabel("|", Color3.fromRGB(60, 60, 80), 12, false)
-wmLabel("t.me/Alessium1337", Theme.ACCENT2, 12, true)
+wmLabel("t.me/Aless1337", Theme.ACCENT2, 12, true)
 
 Watermark.InputBegan:Connect(function(input)
     if input.UserInputType == Enum.UserInputType.MouseButton1 
@@ -1447,5 +1447,5 @@ ActiveTab = "home"
 refreshTabs()
 showHome()
 
-print("[Alessium-Blox Fruts v21] Эффекты удалены. ESP + TeleKill + Auto Hit + Aimbot")
-print("[Alessium-Blox Fruts v21] t.me/Alessium1337")
+print("[Aless v21] Эффекты удалены. ESP + TeleKill + Auto Hit + Aimbot")
+print("[Aless v21] t.me/Aless1337")
